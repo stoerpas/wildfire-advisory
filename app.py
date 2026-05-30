@@ -265,7 +265,7 @@ with gr.Blocks(title="🔥 WildfireAdvisor") as demo:
             feat_html     = gr.HTML()
 
             gr.Markdown("### 🤖 AI Explanation & Safety Advice")
-            explanation_box = gr.Markdown(
+            explanation_box = gr.Textbox(
                 label="",
                 lines=12,
                 interactive=False,
@@ -290,7 +290,7 @@ with gr.Blocks(title="🔥 WildfireAdvisor") as demo:
         placeholder="Run a prediction above, then ask your question here …",
     )
     with gr.Row():
-        chat_in  = gr.Markdown(
+        chat_in  = gr.Textbox(
             placeholder="e.g. What does FWI 29 mean in practice?",
             label="",
             scale=5,
