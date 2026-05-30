@@ -5,8 +5,8 @@
 
 - **Project title:** WildfireAdvisor — ML-powered Wildfire Risk Prediction with AI Safety Explanations
 - **Student:** stoerpas
-- **GitHub repository URL:** https://github.com/stoerpas/wildfire-advisor
-- **Deployment URL:** https://huggingface.co/spaces/stoerpas/wildfire-advisorywildfire-advisor
+- **GitHub repository URL:** https://github.com/stoerpas/wildfire-advisory
+- **Deployment URL:** https://huggingface.co/spaces/stoerpas/wildfire-advisory
 - **Submission date:** June 7, 2026
 
 ### Mandatory Setup Checks
@@ -178,7 +178,7 @@ Full outputs and scoring in [`notebooks/prompt_evaluation_results.md`](../notebo
 
 ## 3. Deployment
 
-- **Deployment URL:** https://huggingface.co/spaces/stoerpas/wildfire-advisorywildfire-advisor
+- **Deployment URL:** https://huggingface.co/spaces/stoerpas/wildfire-advisory
 - **Main user flow:**
   1. User selects a preset scenario (or adjusts sliders manually)
   2. Clicks **Assess Risk** → ML model returns prediction in <1s; OpenAI call returns explanation in ~2–4s
@@ -201,8 +201,8 @@ Without it, the ML prediction still runs and a warning is shown; the chat and ex
 
 - **Environment setup:**
 ```bash
-git clone https://github.com/[your-username]/wildfire-advisor.git
-cd wildfire-advisor
+git clone https://github.com/stoerpas/wildfire-advisory.git
+cd wildfire-advisory
 pip install -r requirements.txt
 cp .env.example .env
 # Edit .env → set OPENAI_API_KEY=sk-...
