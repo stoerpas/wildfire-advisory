@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Wildfire Advisory
 emoji: 📊
@@ -126,4 +125,3 @@ On **Hugging Face Spaces**, set `OPENAI_API_KEY` as a Space secret
 =======
 # wildfire-advisory
 ai application project
->>>>>>> 9abeb2f5ae073567fc67c8cc6637b473c7ebe2b4
